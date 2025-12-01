@@ -77,9 +77,6 @@ make
 ./ecosys
 ```
 
-### **a.out**  
-Default compiler output (ignored in version control).
-
 ---
 
 ## Key Implemented Functions
@@ -104,4 +101,25 @@ Default compiler output (ignored in version control).
 - `lire_ecosys()` — load ecosystem from file  
 
 All functions were validated through extensive tests and simulations.
+
+---
+
+## How to Run
+
+Compile everything:
+```bash
+make
+```
+
+Launch the full simulation:
+```bash
+./ecosys
+```
+
+Outputs include:
+- ASCII ecosystem display  
+- Population logs (`Evol_Pop.txt`)  
+- Saved snapshots (`sys.txt`)  
+
+---
 
